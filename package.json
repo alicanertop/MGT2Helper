@@ -9,7 +9,7 @@
     "webpack": "env-cmd -e default,development webpack serve --config webpack.config.js",
     "webpack-build": " env-cmd -e default,production webpack --config webpack.config.js",
     "build": "GENERATE_SOURCEMAP=false env-cmd -e default,production react-scripts build -p",
-    "predeploy": "yarn && yarn webpack-build",
+    "predeploy": "yarn && yarn build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
