@@ -1,12 +1,19 @@
 import { Box, Stack } from '@chakra-ui/react'
 
-import { MGTDirectionDesign, MGTGameplay, MGTSelect, MGTSuitableTopics } from './pages-components'
+import {
+  MGTDirectionDesign,
+  MGTGameplay,
+  MGTSelect,
+  MGTSuitableTopics,
+  MGTTargetGroup
+} from './pages-components'
 
 export function MGT() {
   return (
-    <Box w="full" minH="100vh" bgColor="rgba(0,0,0,0.3)" padding={5}>
+    <Box w="full" minH="100vh" padding={5}>
       <Stack>
         <MGTSelect />
+        <MGTTargetGroup />
         <MGTSuitableTopics />
         <MGTDirectionDesign />
         <MGTGameplay />
