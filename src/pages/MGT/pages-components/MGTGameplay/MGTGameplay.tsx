@@ -29,6 +29,7 @@ export function MGTGameplay() {
       <Box textAlign="center" fontSize="2xl" m="3">
         <Input
           size="sm"
+          variant="filled"
           placeholder="Filter Gameplay Technologies"
           onChange={(e) => setFText(e.target.value)}
         />

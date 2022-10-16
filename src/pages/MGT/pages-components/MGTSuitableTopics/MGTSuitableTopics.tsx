@@ -30,6 +30,7 @@ export function MGTSuitableTopics() {
       <Box textAlign="center" fontSize="2xl" m="3">
         <Input
           size="sm"
+          variant="filled"
           placeholder="Filter Suitable Topics"
           onChange={(e) => setFText(e.target.value)}
         />

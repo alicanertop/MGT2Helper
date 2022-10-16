@@ -27,6 +27,7 @@ export function MGTSelect() {
       <HStack>
         <Select
           size="sm"
+          variant="filled"
           value={selectedGenreValue}
           placeholder="Select Genre List"
           onChange={(v) => store.dispatch(mgtActions.selectGenre(v.target.value))}>
@@ -38,6 +39,7 @@ export function MGTSelect() {
         </Select>
         <Select
           size="sm"
+          variant="filled"
           value={selectedSubGenreValue}
           disabled={!subGenreList.length}
           placeholder="Select SubGenre List"
