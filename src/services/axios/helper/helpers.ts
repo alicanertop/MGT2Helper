@@ -6,7 +6,7 @@ export const bearerTokenAddingToHeader = (headers: AxiosRequestConfig['headers']
   const authToken = localStorage.getItem(LocalStorageKeys.AuthToken)
   return {
     headers,
-    ...(authToken ? { Authorization: `Bearer ${authToken}` } : {}),
+    ...(authToken ? { Authorization: `Bearer ${authToken}` } : {})
   } as AxiosRequestConfig['headers']
 }
 

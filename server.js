@@ -1,4 +1,4 @@
-const mgt2 = require('./public/mgt2.json')
+const mgt2 = require('./src/json/mgt2.json')
 
 const jsonServer = require('json-server')
 const server = jsonServer.create()

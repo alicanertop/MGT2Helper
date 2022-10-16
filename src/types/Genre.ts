@@ -4,11 +4,11 @@ import { GoodWith } from './GoodWith'
 
 export type Genre = {
   name: string
-  design: Design[]
+  design: Design
   subGenre: string[]
   releaseDate: string
   goodWith: GoodWith[]
   targetGroup: string[]
-  suitableTopics: string
-  direction: Direction[]
+  suitableTopics: string[]
+  direction: Direction
 }

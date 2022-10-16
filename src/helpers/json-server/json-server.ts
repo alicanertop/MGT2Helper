@@ -7,7 +7,7 @@ import queryString from 'query-string'
  * @param str defaul value ""
  * @returns
  */
-const stringCharRemover = (removeCharArr: string[] = [], str: string = '') =>
+const stringCharRemover = (removeCharArr: string[] = [], str = '') =>
   removeCharArr?.reduce((prev, current) => prev?.replaceAll(current, ''), str)
 
 /**
@@ -20,10 +20,10 @@ const stringCharRemover = (removeCharArr: string[] = [], str: string = '') =>
 const getFromHeaderParsedUrl = (
   url: string,
   urlSplitValue = '; rel=',
-  remainderRemoveCharArr = ['"'],
+  remainderRemoveCharArr = ['"']
 ) => {
-  const [path, _rel] = url.split(urlSplitValue)
-  const rel = stringCharRemover(remainderRemoveCharArr, _rel)
+  const [path, $rel] = url.split(urlSplitValue)
+  const rel = stringCharRemover(remainderRemoveCharArr, $rel)
   return { [rel]: { ...queryString.parseUrl(path, { parseFragmentIdentifier: true }).query } }
 }
 

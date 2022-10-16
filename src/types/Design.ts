@@ -1,3 +1,3 @@
 import { NameValue } from './NameValue'
 
-export type Design = NameValue
+export type Design = NameValue[]
