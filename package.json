@@ -1,7 +1,8 @@
 {
   "name": "mad-games-tycoon-two-helper",
   "version": "0.1.0",
-  "private": true,
+  "homepage": ".",
+  "private": false,
   "scripts": {
     "clean": "rm -rf node_modules yarn.lock",
     "start": "env-cmd -e default,development react-scripts start",
