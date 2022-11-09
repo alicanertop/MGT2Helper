@@ -10,7 +10,6 @@ export type IMGTState = {
   genreList: Genre[]
   goodWith?: GoodWith
   selectedGenre?: Genre
-  subGenreList: string[]
   genreNameList: string[]
   selectedGenreValue?: string
   selectedSubGenreValue?: string
@@ -18,7 +17,6 @@ export type IMGTState = {
 }
 
 const initialState: IMGTState = {
-  subGenreList: [],
   genreList: mgt2.genreList,
   gameplayTechnologies: mgt2.gameplayTechnologies,
   genreNameList: mgt2.genreList.map((genre) => genre.name).sort((a, b) => a.localeCompare(b))
@@ -29,12 +27,12 @@ export const mgtSlice = createSlice({
   initialState,
   reducers: {
     selectGenre: (state, action: PayloadAction<string>) => {
+      state.selectedSubGenreValue = undefined
       state.selectedGenreValue = action.payload
       state.selectedGenre = state.genreList.find((genre) => genre.name === action.payload)
-      state.subGenreList = state.selectedGenre?.subGenre ?? []
     },
     selectSubGenre: (state, action: PayloadAction<string>) => {
-      state.selectedSubGenreValue = action.payload
+      state.selectedSubGenreValue = action.payload || undefined
       state.goodWith = state.selectedGenre?.goodWith.find((g) => g.name === action.payload)
     }
   }

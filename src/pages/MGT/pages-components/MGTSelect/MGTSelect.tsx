@@ -7,15 +7,15 @@ import { store } from 'store'
 import {
   mgtActions,
   selectorGetGenreNameList,
+  selectorGetSelectedGenre,
   selectorGetSelectedGenreValue,
-  selectorGetSelectedSubGenreValue,
-  selectorGetSubGenreList
+  selectorGetSelectedSubGenreValue
 } from 'store/mgt'
 
 export function MGTSelect() {
-  const subGenreList = useSelector(selectorGetSubGenreList)
   const genreNameList = useSelector(selectorGetGenreNameList)
 
+  const selectedGenre = useSelector(selectorGetSelectedGenre)
   const selectedGenreValue = useSelector(selectorGetSelectedGenreValue)
   const selectedSubGenreValue = useSelector(selectorGetSelectedSubGenreValue)
 
@@ -41,14 +41,21 @@ export function MGTSelect() {
           size="sm"
           variant="filled"
           value={selectedSubGenreValue}
-          disabled={!subGenreList.length}
+          disabled={!selectedGenreValue}
           placeholder="Select SubGenre List"
           onChange={(v) => store.dispatch(mgtActions.selectSubGenre(v.target.value))}>
-          {subGenreList.map((genre) => (
-            <option key={createUuid()} value={genre}>
-              {genre}
-            </option>
-          ))}
+          {genreNameList
+            .filter((g) => g !== selectedGenreValue)
+            .map((genre) => (
+              <option
+                style={{ fontWeight: selectedGenre?.subGenre.includes(genre) ? 'bold' : 'unset' }}
+                key={createUuid()}
+                value={genre}>
+                {selectedGenre?.subGenre.includes(genre) ? '*' : ''}
+                {genre}
+                {selectedGenre?.subGenre.includes(genre) ? '*' : ''}
+              </option>
+            ))}
         </Select>
       </HStack>
     </Box>

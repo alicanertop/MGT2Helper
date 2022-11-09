@@ -16,11 +16,6 @@ export const selectorGetSelectedGenre = createSelector(
 
 export const selectorGetGoodWith = createSelector(selectorGetMGTState, (state) => state.goodWith)
 
-export const selectorGetSubGenreList = createSelector(
-  selectorGetMGTState,
-  (state) => state.subGenreList
-)
-
 export const selectorGetSelectedGenreValue = createSelector(
   selectorGetMGTState,
   (state) => state.selectedGenreValue
