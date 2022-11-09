@@ -2,25 +2,15 @@ import axios, { AxiosRequestConfig } from 'axios'
 
 import { apiConfig } from 'config/api'
 import { toastError } from 'services/toast'
-import { helperAddActiveRequest, helperRemoveActiveRequest } from 'store/loading'
+import { helperRemoveActiveRequest } from 'store/loading'
 
-import { bearerTokenAddingToHeader, bearerTokenSave } from './helper'
+import { bearerTokenSave } from './helper'
 
 const instance = axios.create(apiConfig)
 
 const getRequsetUrl = (config: AxiosRequestConfig) => [config.baseURL, config.url].join('/')
 
-instance.interceptors.request.use(
-  async (config) => {
-    helperAddActiveRequest(getRequsetUrl(config))
-    config.headers = bearerTokenAddingToHeader(config.headers)
-    return config
-  },
-  (error) => {
-    console.warn(error)
-    return Promise.reject(error)
-  },
-)
+instance.interceptors.request.use(async (config) => config, Promise.reject)
 
 instance.interceptors.response.use(
   (response) => {
@@ -39,7 +29,7 @@ instance.interceptors.response.use(
 
     toastError(errorMessage)
     return Promise.reject(error)
-  },
+  }
 )
 
 export default instance
