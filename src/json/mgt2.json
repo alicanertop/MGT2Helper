@@ -3,18 +3,8 @@
     {
       "name": "SkillGame",
       "releaseDate": "01-01-1976",
-      "targetGroup": [
-        "Children",
-        "Teenagers",
-        "Adults",
-        "Seniors",
-        "All"
-      ],
-      "subGenre": [
-        "PuzzleGame",
-        "Action",
-        "Platformer"
-      ],
+      "targetGroup": ["Children", "Teenagers", "Adults", "Seniors", "All"],
+      "subGenre": ["PuzzleGame", "Action", "Platformer"],
       "design": [
         {
           "name": "Gameplay",
@@ -1117,18 +1107,8 @@
     {
       "name": "Racing",
       "releaseDate": "01-01-1976",
-      "targetGroup": [
-        "Children",
-        "Teenagers",
-        "Adults",
-        "Seniors",
-        "All"
-      ],
-      "subGenre": [
-        "Action",
-        "Simulation",
-        "SportsGame"
-      ],
+      "targetGroup": ["Children", "Teenagers", "Adults", "Seniors", "All"],
+      "subGenre": ["Action", "Simulation", "SportsGame"],
       "design": [
         {
           "name": "Gameplay",
@@ -2111,18 +2091,8 @@
     {
       "name": "PuzzleGame",
       "releaseDate": "01-01-1976",
-      "targetGroup": [
-        "Teenagers",
-        "Adults",
-        "Seniors"
-      ],
-      "subGenre": [
-        "SkillGame",
-        "Strategy",
-        "Platformer",
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
+      "targetGroup": ["Teenagers", "Adults", "Seniors"],
+      "subGenre": ["SkillGame", "Strategy", "Platformer", "InteractiveMovie", "VisualNovel"],
       "design": [
         {
           "name": "Gameplay",
@@ -3184,17 +3154,8 @@
     {
       "name": "Adventure",
       "releaseDate": "01-01-1976",
-      "targetGroup": [
-        "Adults",
-        "Seniors"
-      ],
-      "subGenre": [
-        "PuzzleGame",
-        "Platformer",
-        "InteractiveMovie",
-        "VisualNovel",
-        "TPS"
-      ],
+      "targetGroup": ["Adults", "Seniors"],
+      "subGenre": ["PuzzleGame", "Platformer", "InteractiveMovie", "VisualNovel", "TPS"],
       "design": [
         {
           "name": "Gameplay",
@@ -4244,19 +4205,8 @@
     {
       "name": "RPG",
       "releaseDate": "01-06-1977",
-      "targetGroup": [
-        "Adults",
-        "Seniors"
-      ],
-      "subGenre": [
-        "PuzzleGame",
-        "Adventure",
-        "Action",
-        "Platformer",
-        "RTS",
-        "FPS",
-        "TPS"
-      ],
+      "targetGroup": ["Adults", "Seniors"],
+      "subGenre": ["PuzzleGame", "Adventure", "Action", "Platformer", "RTS", "FPS", "TPS"],
       "design": [
         {
           "name": "Gameplay",
@@ -5275,17 +5225,8 @@
     {
       "name": "Strategy",
       "releaseDate": "01-07-1978",
-      "targetGroup": [
-        "Adults",
-        "Seniors"
-      ],
-      "subGenre": [
-        "RPG",
-        "Action",
-        "EconomicSimulation",
-        "BuildingGame",
-        "RTS"
-      ],
+      "targetGroup": ["Adults", "Seniors"],
+      "subGenre": ["RPG", "Action", "EconomicSimulation", "BuildingGame", "RTS"],
       "design": [
         {
           "name": "Gameplay",
@@ -5677,7 +5618,7 @@
             },
             {
               "name": "Story",
-              "value": 4
+              "value": 3
             },
             {
               "name": "CharacterDesign",
@@ -6347,19 +6288,8 @@
     {
       "name": "Action",
       "releaseDate": "01-08-1979",
-      "targetGroup": [
-        "Adults",
-        "Teenagers"
-      ],
-      "subGenre": [
-        "SkillGame",
-        "Adventure",
-        "RPG",
-        "Platformer",
-        "FightingGame",
-        "FPS",
-        "TPS"
-      ],
+      "targetGroup": ["Adults", "Teenagers"],
+      "subGenre": ["SkillGame", "Adventure", "RPG", "Platformer", "FightingGame", "FPS", "TPS"],
       "design": [
         {
           "name": "Gameplay",
@@ -7458,18 +7388,8 @@
     {
       "name": "Platformer",
       "releaseDate": "01-10-1980",
-      "targetGroup": [
-        "Children",
-        "Teenagers"
-      ],
-      "subGenre": [
-        "SkillGame",
-        "PuzzleGame",
-        "RPG",
-        "Adventure",
-        "Action",
-        "FightingGame"
-      ],
+      "targetGroup": ["Children", "Teenagers"],
+      "subGenre": ["SkillGame", "PuzzleGame", "RPG", "Adventure", "Action", "FightingGame"],
       "design": [
         {
           "name": "Gameplay",
@@ -8580,17 +8500,8 @@
     {
       "name": "Simulation",
       "releaseDate": "01-12-1981",
-      "targetGroup": [
-        "Adults",
-        "Teenagers"
-      ],
-      "subGenre": [
-        "Strategy",
-        "Action",
-        "SportsGame",
-        "FPS",
-        "Racing"
-      ],
+      "targetGroup": ["Adults", "Teenagers"],
+      "subGenre": ["Strategy", "Action", "SportsGame", "FPS", "Racing"],
       "design": [
         {
           "name": "Gameplay",
@@ -9633,18 +9544,8 @@
     {
       "name": "SportsGame",
       "releaseDate": "01-01-1982",
-      "targetGroup": [
-        "Children",
-        "Adults",
-        "Teenagers"
-      ],
-      "subGenre": [
-        "Strategy",
-        "Action",
-        "Simulation",
-        "EconomicSimulation",
-        "FightingGame"
-      ],
+      "targetGroup": ["Children", "Adults", "Teenagers"],
+      "subGenre": ["Strategy", "Action", "Simulation", "EconomicSimulation", "FightingGame"],
       "design": [
         {
           "name": "Gameplay",
@@ -10671,16 +10572,8 @@
     {
       "name": "EconomicSimulation",
       "releaseDate": "01-02-1983",
-      "targetGroup": [
-        "Seniors",
-        "Adults"
-      ],
-      "subGenre": [
-        "Strategy",
-        "SportsGame",
-        "BuildingGame",
-        "RTS"
-      ],
+      "targetGroup": ["Seniors", "Adults"],
+      "subGenre": ["Strategy", "SportsGame", "BuildingGame", "RTS"],
       "design": [
         {
           "name": "Gameplay",
@@ -11762,19 +11655,8 @@
     {
       "name": "SurvivalGame",
       "releaseDate": "01-04-1986",
-      "targetGroup": [
-        "Teenagers",
-        "Seniors",
-        "Adults"
-      ],
-      "subGenre": [
-        "Strategy",
-        "RPG",
-        "Action",
-        "Platformer",
-        "FPS",
-        "TPS"
-      ],
+      "targetGroup": ["Teenagers", "Seniors", "Adults"],
+      "subGenre": ["Strategy", "RPG", "Action", "Platformer", "FPS", "TPS"],
       "design": [
         {
           "name": "Gameplay",
@@ -12775,15 +12657,8 @@
     {
       "name": "FightingGame",
       "releaseDate": "01-04-1984",
-      "targetGroup": [
-        "Teenagers",
-        "Adults"
-      ],
-      "subGenre": [
-        "Action",
-        "Platformer",
-        "SportsGame"
-      ],
+      "targetGroup": ["Teenagers", "Adults"],
+      "subGenre": ["Action", "Platformer", "SportsGame"],
       "design": [
         {
           "name": "Gameplay",
@@ -13779,15 +13654,8 @@
     {
       "name": "BuildingGame",
       "releaseDate": "01-10-1988",
-      "targetGroup": [
-        "Seniors",
-        "Adults"
-      ],
-      "subGenre": [
-        "Strategy",
-        "EconomicSumilation",
-        "RTS"
-      ],
+      "targetGroup": ["Seniors", "Adults"],
+      "subGenre": ["Strategy", "EconomicSumilation", "RTS"],
       "design": [
         {
           "name": "Gameplay",
@@ -14842,17 +14710,8 @@
     {
       "name": "InteractiveMovie",
       "releaseDate": "01-02-1990",
-      "targetGroup": [
-        "Teenagers",
-        "Seniors",
-        "Adults"
-      ],
-      "subGenre": [
-        "SkillGame",
-        "PuzzleGame",
-        "Adventure",
-        "VisualNovel"
-      ],
+      "targetGroup": ["Teenagers", "Seniors", "Adults"],
+      "subGenre": ["SkillGame", "PuzzleGame", "Adventure", "VisualNovel"],
       "design": [
         {
           "name": "Gameplay",
@@ -15869,17 +15728,8 @@
     {
       "name": "RTS",
       "releaseDate": "01-07-1991",
-      "targetGroup": [
-        "Teenagers",
-        "Adults"
-      ],
-      "subGenre": [
-        "RPG",
-        "Strategy",
-        "Action",
-        "BuildingGame",
-        "EconomicSimulation"
-      ],
+      "targetGroup": ["Teenagers", "Adults"],
+      "subGenre": ["RPG", "Strategy", "Action", "BuildingGame", "EconomicSimulation"],
       "design": [
         {
           "name": "Gameplay",
@@ -16928,19 +16778,8 @@
     {
       "name": "FPS",
       "releaseDate": "01-07-1991",
-      "targetGroup": [
-        "Teenagers",
-        "Adults"
-      ],
-      "subGenre": [
-        "RPG",
-        "SkillGame",
-        "Adventure",
-        "Action",
-        "Platformer",
-        "Simulation",
-        "TPS"
-      ],
+      "targetGroup": ["Teenagers", "Adults"],
+      "subGenre": ["RPG", "SkillGame", "Adventure", "Action", "Platformer", "Simulation", "TPS"],
       "design": [
         {
           "name": "Gameplay",
@@ -18012,20 +17851,8 @@
     {
       "name": "VisualNovel",
       "releaseDate": "01-07-1992",
-      "targetGroup": [
-        "Children",
-        "Teenagers",
-        "Adults",
-        "Seniors",
-        "All"
-      ],
-      "subGenre": [
-        "SkillGame",
-        "PuzzleGame",
-        "Adventure",
-        "InteractiveMovie",
-        "RPG"
-      ],
+      "targetGroup": ["Children", "Teenagers", "Adults", "Seniors", "All"],
+      "subGenre": ["SkillGame", "PuzzleGame", "Adventure", "InteractiveMovie", "RPG"],
       "design": [
         {
           "name": "Gameplay",
@@ -19054,10 +18881,7 @@
     {
       "name": "TPS",
       "releaseDate": "01-08-1996",
-      "targetGroup": [
-        "Teenagers",
-        "Adults"
-      ],
+      "targetGroup": ["Teenagers", "Adults"],
       "subGenre": [
         "SkillGame",
         "Adventure",
@@ -21504,94 +21328,47 @@
     {
       "date": "01.01.1976",
       "name": "PauseFunction",
-      "good": [
-        "Action",
-        "FightingGame"
-      ],
-      "bad": [
-        "Adventure",
-        "Strategy"
-      ],
+      "good": ["Action", "FightingGame"],
+      "bad": ["Adventure", "Strategy"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.01.1976",
       "name": "KeyboardSupport",
-      "middle": [
-        "Allgenres"
-      ],
-      "none": [
-        "Arcademachines",
-        "Mobilephones"
-      ],
+      "middle": ["Allgenres"],
+      "none": ["Arcademachines", "Mobilephones"],
       "bad": [],
       "good": []
     },
     {
       "date": "01.01.1976",
       "name": "ControllerSupport",
-      "good": [
-        "SkillGame",
-        "Action",
-        "Platformer",
-        "SportsGame",
-        "FightingGame"
-      ],
-      "bad": [
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
-      "none": [
-        "Arcademachines"
-      ],
+      "good": ["SkillGame", "Action", "Platformer", "SportsGame", "FightingGame"],
+      "bad": ["EconomicSimulation", "BuildingGame"],
+      "none": ["Arcademachines"],
       "middle": []
     },
     {
       "date": "01.01.1976",
       "name": "ArcadeJoystickSupport",
-      "good": [
-        "SkillGame",
-        "Action",
-        "Platformer",
-        "SportsGame",
-        "FightingGame"
-      ],
-      "bad": [
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
-      "none": [
-        "Mobilephones"
-      ],
+      "good": ["SkillGame", "Action", "Platformer", "SportsGame", "FightingGame"],
+      "bad": ["EconomicSimulation", "BuildingGame"],
+      "none": ["Mobilephones"],
       "middle": []
     },
     {
       "date": "01.02.1976",
       "name": "LocalHighScores",
-      "good": [
-        "SkillGame",
-        "Action",
-        "Platformer",
-        "SportsGame",
-        "FightingGame"
-      ],
-      "bad": [
-        "Adventure"
-      ],
+      "good": ["SkillGame", "Action", "Platformer", "SportsGame", "FightingGame"],
+      "bad": ["Adventure"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.03.1977",
       "name": "Secrets",
-      "good": [
-        "PuzzleGame",
-        "Action",
-        "Platformer",
-        "FPS",
-        "TPS"
-      ],
+      "good": ["PuzzleGame", "Action", "Platformer", "FPS", "TPS"],
       "bad": [
         "Strategy",
         "Simulation",
@@ -21607,77 +21384,39 @@
     {
       "date": "01.04.1977",
       "name": "CheckPoints",
-      "good": [
-        "SkillGame",
-        "Action",
-        "Platformer"
-      ],
-      "bad": [
-        "Simulation",
-        "SportsGame",
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
+      "good": ["SkillGame", "Action", "Platformer"],
+      "bad": ["Simulation", "SportsGame", "EconomicSimulation", "BuildingGame"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.06.1978",
       "name": "CheatCodes",
-      "good": [
-        "Action",
-        "Platformer"
-      ],
-      "bad": [
-        "Adventure",
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
-      "none": [
-        "Arcademachines"
-      ],
+      "good": ["Action", "Platformer"],
+      "bad": ["Adventure", "InteractiveMovie", "VisualNovel"],
+      "none": ["Arcademachines"],
       "middle": []
     },
     {
       "date": "01.06.1978",
       "name": "PasswordSaves",
-      "middle": [
-        "Allgenres"
-      ],
-      "none": [
-        "Arcademachines"
-      ],
+      "middle": ["Allgenres"],
+      "none": ["Arcademachines"],
       "bad": [],
       "good": []
     },
     {
       "date": "01.07.1979",
       "name": "Sidequests",
-      "good": [
-        "RPG",
-        "FPS",
-        "TPS"
-      ],
-      "bad": [
-        "SportsGame",
-        "EconomicSimulation",
-        "BuildingGame",
-        "Racing"
-      ],
+      "good": ["RPG", "FPS", "TPS"],
+      "bad": ["SportsGame", "EconomicSimulation", "BuildingGame", "Racing"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.08.1979",
       "name": "CharacterProgression",
-      "good": [
-        "RPG",
-        "Platformer",
-        "SportsGame",
-        "FightingGame",
-        "FPS",
-        "TPS"
-      ],
+      "good": ["RPG", "Platformer", "SportsGame", "FightingGame", "FPS", "TPS"],
       "bad": [
         "SkillGame",
         "PuzzleGame",
@@ -21693,12 +21432,8 @@
     {
       "date": "01.09.1980",
       "name": "SaveGames",
-      "middle": [
-        "Allgenres"
-      ],
-      "none": [
-        "Arcademachines"
-      ],
+      "middle": ["Allgenres"],
+      "none": ["Arcademachines"],
       "bad": [],
       "good": []
     },
@@ -21715,55 +21450,30 @@
         "TPS",
         "Racing"
       ],
-      "bad": [
-        "Adventure",
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
-      "none": [
-        "Mobilephones"
-      ],
+      "bad": ["Adventure", "InteractiveMovie", "VisualNovel"],
+      "none": ["Mobilephones"],
       "middle": []
     },
     {
       "date": "01.11.1981",
       "name": "EasterEggs",
-      "good": [
-        "SkillGame",
-        "Platformer"
-      ],
-      "bad": [
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
+      "good": ["SkillGame", "Platformer"],
+      "bad": ["EconomicSimulation", "BuildingGame"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.12.1981",
       "name": "RandomStoryEvents",
-      "good": [
-        "RPG",
-        "RTS",
-        "FPS",
-        "TPS"
-      ],
-      "bad": [
-        "SportsGame",
-        "EconomicSimulation",
-        "BuildingGame",
-        "Racing"
-      ],
+      "good": ["RPG", "RTS", "FPS", "TPS"],
+      "bad": ["SportsGame", "EconomicSimulation", "BuildingGame", "Racing"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.01.1982",
       "name": "RepeatableQuests",
-      "good": [
-        "RPG",
-        "TPS"
-      ],
+      "good": ["RPG", "TPS"],
       "bad": [
         "PuzzleGame",
         "Adventure",
@@ -21779,30 +21489,15 @@
     {
       "date": "01.02.1982",
       "name": "CharacterCustomization",
-      "good": [
-        "RPG",
-        "SportsGame",
-        "FightingGame",
-        "TPS"
-      ],
-      "bad": [
-        "PuzzleGame",
-        "Adventure",
-        "Simulation"
-      ],
+      "good": ["RPG", "SportsGame", "FightingGame", "TPS"],
+      "bad": ["PuzzleGame", "Adventure", "Simulation"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.03.1983",
       "name": "SkillTrees",
-      "good": [
-        "RPG",
-        "SportsGame",
-        "FightingGame",
-        "FPS",
-        "TPS"
-      ],
+      "good": ["RPG", "SportsGame", "FightingGame", "FPS", "TPS"],
       "bad": [
         "PuzzleGame",
         "Adventure",
@@ -21817,42 +21512,23 @@
     {
       "date": "01.03.1983",
       "name": "Day-NightCycle",
-      "good": [
-        "RPG",
-        "Simulation",
-        "FPS",
-        "TPS",
-        "Racing"
-      ],
-      "bad": [
-        "FightingGame"
-      ],
+      "good": ["RPG", "Simulation", "FPS", "TPS", "Racing"],
+      "bad": ["FightingGame"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.04.1983",
       "name": "Tutorial",
-      "good": [
-        "Strategy",
-        "EconomicSimulation",
-        "BuildingGame",
-        "RTS"
-      ],
-      "bad": [
-        "PuzzleGame",
-        "Adventure"
-      ],
+      "good": ["Strategy", "EconomicSimulation", "BuildingGame", "RTS"],
+      "bad": ["PuzzleGame", "Adventure"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.04.1983",
       "name": "LightgunSupport",
-      "good": [
-        "Action",
-        "InteractiveMovie"
-      ],
+      "good": ["Action", "InteractiveMovie"],
       "bad": [
         "PuzzleGame",
         "Adventure",
@@ -21866,87 +21542,45 @@
         "VisualNovel",
         "Racing"
       ],
-      "none": [
-        "Mobilephones"
-      ],
+      "none": ["Mobilephones"],
       "middle": []
     },
     {
       "date": "01.06.1983",
       "name": "QuickTimeEvents",
-      "good": [
-        "SkillGame",
-        "Action",
-        "SportsGame",
-        "FightingGame"
-      ],
-      "bad": [
-        "Strategy",
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
+      "good": ["SkillGame", "Action", "SportsGame", "FightingGame"],
+      "bad": ["Strategy", "EconomicSimulation", "BuildingGame"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.06.1984",
       "name": "Achievements",
-      "good": [
-        "SkillGame",
-        "Action",
-        "SportsGame"
-      ],
-      "bad": [
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
+      "good": ["SkillGame", "Action", "SportsGame"],
+      "bad": ["InteractiveMovie", "VisualNovel"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.06.1984",
       "name": "MouseSupport",
-      "good": [
-        "EconomicSimulation",
-        "BuildingGame",
-        "RTS"
-      ],
-      "bad": [
-        "SportsGame",
-        "FightingGame"
-      ],
-      "none": [
-        "Arcademachines",
-        "Mobilephones"
-      ],
+      "good": ["EconomicSimulation", "BuildingGame", "RTS"],
+      "bad": ["SportsGame", "FightingGame"],
+      "none": ["Arcademachines", "Mobilephones"],
       "middle": []
     },
     {
       "date": "01.06.1985",
       "name": "MiniGames",
-      "good": [
-        "PuzzleGame",
-        "InteractiveMovie"
-      ],
-      "bad": [
-        "Simulation",
-        "EconomicSimulation",
-        "BuildingGame",
-        "RTS",
-        "Racing"
-      ],
+      "good": ["PuzzleGame", "InteractiveMovie"],
+      "bad": ["Simulation", "EconomicSimulation", "BuildingGame", "RTS", "Racing"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.06.1985",
       "name": "VoiceOutput",
-      "good": [
-        "Adventure",
-        "RPG",
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
+      "good": ["Adventure", "RPG", "InteractiveMovie", "VisualNovel"],
       "bad": [],
       "none": [],
       "middle": []
@@ -21954,53 +21588,24 @@
     {
       "date": "01.07.1986",
       "name": "NewGamePlus",
-      "good": [
-        "Action",
-        "Platformer",
-        "FightingGame",
-        "FPS",
-        "TPS"
-      ],
-      "bad": [
-        "Adventure",
-        "SportsGame",
-        "EconomicSimulation",
-        "BuildingGame",
-        "Racing"
-      ],
+      "good": ["Action", "Platformer", "FightingGame", "FPS", "TPS"],
+      "bad": ["Adventure", "SportsGame", "EconomicSimulation", "BuildingGame", "Racing"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.06.1987",
       "name": "Cutscenes",
-      "good": [
-        "Adventure",
-        "RPG",
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
-      "bad": [
-        "EconomicSimulation"
-      ],
+      "good": ["Adventure", "RPG", "InteractiveMovie", "VisualNovel"],
+      "bad": ["EconomicSimulation"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.08.1987",
       "name": "MultipleEnds",
-      "good": [
-        "Adventure",
-        "RPG",
-        "FightingGame",
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
-      "bad": [
-        "EconomicSimulation",
-        "BuildingGame",
-        "Racing"
-      ],
+      "good": ["Adventure", "RPG", "FightingGame", "InteractiveMovie", "VisualNovel"],
+      "bad": ["EconomicSimulation", "BuildingGame", "Racing"],
       "none": [],
       "middle": []
     },
@@ -22018,66 +21623,32 @@
         "FPS",
         "TPS"
       ],
-      "bad": [
-        "PuzzleGame",
-        "Adventure"
-      ],
+      "bad": ["PuzzleGame", "Adventure"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.09.1988",
       "name": "DynamicLevelofDifficulty",
-      "good": [
-        "Strategy",
-        "FightingGame",
-        "RTS",
-        "FPS",
-        "TPS",
-        "Racing"
-      ],
-      "bad": [
-        "Adventure",
-        "VisualNovel"
-      ],
+      "good": ["Strategy", "FightingGame", "RTS", "FPS", "TPS", "Racing"],
+      "bad": ["Adventure", "VisualNovel"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.06.1989",
       "name": "AdjustableControls",
-      "good": [
-        "Simulation",
-        "SportsGame",
-        "FPS"
-      ],
-      "bad": [
-        "PuzzleGame",
-        "Adventure"
-      ],
+      "good": ["Simulation", "SportsGame", "FPS"],
+      "bad": ["PuzzleGame", "Adventure"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.10.1989",
       "name": "LANMultiplayer",
-      "good": [
-        "Strategy",
-        "Simulation",
-        "SportsGame",
-        "RTS",
-        "FPS",
-        "TPS",
-        "Racing"
-      ],
-      "bad": [
-        "Adventure",
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
-      "none": [
-        "Mobilephones"
-      ],
+      "good": ["Strategy", "Simulation", "SportsGame", "RTS", "FPS", "TPS", "Racing"],
+      "bad": ["Adventure", "InteractiveMovie", "VisualNovel"],
+      "none": ["Mobilephones"],
       "middle": []
     },
     {
@@ -22101,25 +21672,15 @@
         "TPS",
         "BattleRoyale"
       ],
-      "none": [
-        "Mobilephones"
-      ],
+      "none": ["Mobilephones"],
       "good": [],
       "middle": []
     },
     {
       "date": "01.11.1990",
       "name": "LevelEditor",
-      "bad": [
-        "Adventure",
-        "EconomicSimulation",
-        "FightingGame",
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
-      "none": [
-        "Arcademachines"
-      ],
+      "bad": ["Adventure", "EconomicSimulation", "FightingGame", "InteractiveMovie", "VisualNovel"],
+      "none": ["Arcademachines"],
       "good": [],
       "middle": []
     },
@@ -22137,119 +21698,62 @@
         "Racing",
         "BattleRoyale"
       ],
-      "bad": [
-        "Adventure",
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
+      "bad": ["Adventure", "InteractiveMovie", "VisualNovel"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.01.1992",
       "name": "AdjustableHUD",
-      "good": [
-        "Simulation",
-        "Racing"
-      ],
-      "bad": [
-        "Adventure",
-        "VisualNovel"
-      ],
+      "good": ["Simulation", "Racing"],
+      "bad": ["Adventure", "VisualNovel"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.08.1992",
       "name": "OrchestralSoundtrack",
-      "good": [
-        "Strategy",
-        "RTS"
-      ],
-      "bad": [
-        "SportsGame",
-        "FightingGame",
-        "Racing"
-      ],
+      "good": ["Strategy", "RTS"],
+      "bad": ["SportsGame", "FightingGame", "Racing"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.08.1992",
       "name": "ForceFeedback",
-      "good": [
-        "Action",
-        "Simulation",
-        "FPS",
-        "TPS",
-        "Racing"
-      ],
-      "bad": [
-        "PuzzleGame",
-        "Adventure"
-      ],
+      "good": ["Action", "Simulation", "FPS", "TPS", "Racing"],
+      "bad": ["PuzzleGame", "Adventure"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.08.1992",
       "name": "ModernControllerSupport",
-      "good": [
-        "SkillGame",
-        "Action",
-        "Platformer",
-        "SportsGame",
-        "FightingGame"
-      ],
-      "bad": [
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
-      "none": [
-        "Arcademachines"
-      ],
+      "good": ["SkillGame", "Action", "Platformer", "SportsGame", "FightingGame"],
+      "bad": ["EconomicSimulation", "BuildingGame"],
+      "none": ["Arcademachines"],
       "middle": []
     },
     {
       "date": "01.02.1993",
       "name": "AdjustableCensoring",
-      "good": [
-        "Action",
-        "FightingGame",
-        "FPS",
-        "TPS"
-      ],
-      "bad": [
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
+      "good": ["Action", "FightingGame", "FPS", "TPS"],
+      "bad": ["EconomicSimulation", "BuildingGame"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.09.1993",
       "name": "FlightStickSupport",
-      "good": [
-        "Simulation"
-      ],
-      "bad": [
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
-      "none": [
-        "Mobilephones"
-      ],
+      "good": ["Simulation"],
+      "bad": ["EconomicSimulation", "BuildingGame"],
+      "none": ["Mobilephones"],
       "middle": []
     },
     {
       "date": "01.03.1994",
       "name": "MoraleMechanics",
-      "good": [
-        "Adventure",
-        "RPG",
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
+      "good": ["Adventure", "RPG", "InteractiveMovie", "VisualNovel"],
       "bad": [
         "SkillGame",
         "PuzzleGame",
@@ -22267,68 +21771,31 @@
     {
       "date": "01.04.1994",
       "name": "WeatherEffects",
-      "good": [
-        "Simulation",
-        "SportsGame",
-        "FPS",
-        "TPS",
-        "Racing",
-        "BattleRoyale"
-      ],
-      "bad": [
-        "InteractiveMovie"
-      ],
+      "good": ["Simulation", "SportsGame", "FPS", "TPS", "Racing", "BattleRoyale"],
+      "bad": ["InteractiveMovie"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.10.1994",
       "name": "VRHelmetSupport",
-      "good": [
-        "Simulation",
-        "SportsGame",
-        "FPS",
-        "Racing"
-      ],
-      "bad": [
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
-      "none": [
-        "Mobilephones"
-      ],
+      "good": ["Simulation", "SportsGame", "FPS", "Racing"],
+      "bad": ["EconomicSimulation", "BuildingGame"],
+      "none": ["Mobilephones"],
       "middle": []
     },
     {
       "date": "01.04.1995",
       "name": "VoiceOver",
-      "good": [
-        "SportsGame",
-        "FPS",
-        "TPS",
-        "Racing",
-        "BattleRoyale"
-      ],
-      "bad": [
-        "Adventure",
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
+      "good": ["SportsGame", "FPS", "TPS", "Racing", "BattleRoyale"],
+      "bad": ["Adventure", "InteractiveMovie", "VisualNovel"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.06.1995",
       "name": "SeeReplayFunction",
-      "good": [
-        "SkillGame",
-        "SportsGame",
-        "FightingGame",
-        "RTS",
-        "FPS",
-        "TPS",
-        "Racing"
-      ],
+      "good": ["SkillGame", "SportsGame", "FightingGame", "RTS", "FPS", "TPS", "Racing"],
       "bad": [
         "PuzzleGame",
         "Adventure",
@@ -22344,67 +21811,31 @@
     {
       "date": "01.06.1996",
       "name": "Dynamic&DestructibleWorld",
-      "good": [
-        "Strategy",
-        "Simulation",
-        "BuildingGame",
-        "RTS",
-        "FPS",
-        "TPS"
-      ],
-      "bad": [
-        "Adventure",
-        "SportsGame",
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
+      "good": ["Strategy", "Simulation", "BuildingGame", "RTS", "FPS", "TPS"],
+      "bad": ["Adventure", "SportsGame", "InteractiveMovie", "VisualNovel"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.07.1997",
       "name": "ModSupport",
-      "good": [
-        "RPG",
-        "Simulation",
-        "RTS",
-        "FPS"
-      ],
-      "bad": [
-        "Adventure",
-        "InteractiveMovie"
-      ],
-      "none": [
-        "Arcademachines"
-      ],
+      "good": ["RPG", "Simulation", "RTS", "FPS"],
+      "bad": ["Adventure", "InteractiveMovie"],
+      "none": ["Arcademachines"],
       "middle": []
     },
     {
       "date": "01.08.1997",
       "name": "OnlineLeaderboards",
-      "good": [
-        "SkillGame",
-        "Action",
-        "FightingGame",
-        "FPS",
-        "TPS",
-        "Racing",
-        "BattleRoyale"
-      ],
-      "bad": [
-        "Adventure",
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
+      "good": ["SkillGame", "Action", "FightingGame", "FPS", "TPS", "Racing", "BattleRoyale"],
+      "bad": ["Adventure", "InteractiveMovie", "VisualNovel"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.04.1998",
       "name": "Dancepadsupport",
-      "good": [
-        "SkillGame"
-      ],
+      "good": ["SkillGame"],
       "bad": [
         "Adventure",
         "RPG",
@@ -22422,65 +21853,37 @@
         "Racing",
         "BattleRoyale"
       ],
-      "none": [
-        "Mobilephones"
-      ],
+      "none": ["Mobilephones"],
       "middle": []
     },
     {
       "date": "01.09.1998",
       "name": "InteractiveStory",
-      "good": [
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
-      "bad": [
-        "PuzzleGame",
-        "SportsGame",
-        "EconomicSimulation",
-        "BuildingGame",
-        "Racing"
-      ],
+      "good": ["InteractiveMovie", "VisualNovel"],
+      "bad": ["PuzzleGame", "SportsGame", "EconomicSimulation", "BuildingGame", "Racing"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.02.1999",
       "name": "In-AppPurchases",
-      "middle": [
-        "Allgenres"
-      ],
-      "none": [
-        "Arcademachines"
-      ],
+      "middle": ["Allgenres"],
+      "none": ["Arcademachines"],
       "bad": [],
       "good": []
     },
     {
       "date": "01.10.1999",
       "name": "LevelStreaming",
-      "good": [
-        "Adventure",
-        "Simulation",
-        "FPS",
-        "TPS"
-      ],
-      "bad": [
-        "FightingGame",
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
+      "good": ["Adventure", "Simulation", "FPS", "TPS"],
+      "bad": ["FightingGame", "InteractiveMovie", "VisualNovel"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.11.2000",
       "name": "SandboxMod",
-      "good": [
-        "Simulation",
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
+      "good": ["Simulation", "EconomicSimulation", "BuildingGame"],
       "bad": [
         "SkillGame",
         "PuzzleGame",
@@ -22494,62 +21897,37 @@
         "FPS",
         "VisualNovel"
       ],
-      "none": [
-        "Arcademachines"
-      ],
+      "none": ["Arcademachines"],
       "middle": []
     },
     {
       "date": "01.01.2001",
       "name": "TouchScreenSupport",
-      "good": [
-        "Strategy",
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
-      "bad": [
-        "FightingGame"
-      ],
+      "good": ["Strategy", "EconomicSimulation", "BuildingGame"],
+      "bad": ["FightingGame"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.12.2005",
       "name": "SocialMediaIntegration",
-      "good": [
-        "PuzzleGame"
-      ],
-      "bad": [
-        "Adventure",
-        "VisualNovel"
-      ],
+      "good": ["PuzzleGame"],
+      "bad": ["Adventure", "VisualNovel"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.02.2006",
       "name": "MotionControllerSupport",
-      "good": [
-        "Simulation",
-        "SportsGame",
-        "FightingGame",
-        "InteractiveMovie"
-      ],
-      "bad": [
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
-      "none": [
-        "Mobilephones"
-      ],
+      "good": ["Simulation", "SportsGame", "FightingGame", "InteractiveMovie"],
+      "bad": ["EconomicSimulation", "BuildingGame"],
+      "none": ["Mobilephones"],
       "middle": []
     },
     {
       "date": "01.12.2007",
       "name": "InstrumentSupport",
-      "good": [
-        "SkillGame"
-      ],
+      "good": ["SkillGame"],
       "bad": [
         "PuzzleGame",
         "Adventure",
@@ -22568,36 +21946,21 @@
         "Racing",
         "BattleRoyale"
       ],
-      "none": [
-        "Mobilephones"
-      ],
+      "none": ["Mobilephones"],
       "middle": []
     },
     {
       "date": "01.01.2009",
       "name": "MotionCameraSupport",
-      "good": [
-        "Simulation",
-        "SportsGame",
-        "FightingGame",
-        "InteractiveMovie"
-      ],
-      "bad": [
-        "Adventure",
-        "Strategy",
-        "EconomicSimulation",
-        "BuildingGame",
-        "RTS"
-      ],
+      "good": ["Simulation", "SportsGame", "FightingGame", "InteractiveMovie"],
+      "bad": ["Adventure", "Strategy", "EconomicSimulation", "BuildingGame", "RTS"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.01.2012",
       "name": "CloudService",
-      "good": [
-        "Racing"
-      ],
+      "good": ["Racing"],
       "bad": [],
       "none": [],
       "middle": []
@@ -22605,94 +21968,40 @@
     {
       "date": "01.06.2014",
       "name": "GamingVestSupport",
-      "good": [
-        "Action",
-        "Simulation",
-        "SportsGame",
-        "FightingGame",
-        "FPS",
-        "TPS"
-      ],
-      "bad": [
-        "PuzzleGame",
-        "Strategy",
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
-      "none": [
-        "Mobilephones"
-      ],
+      "good": ["Action", "Simulation", "SportsGame", "FightingGame", "FPS", "TPS"],
+      "bad": ["PuzzleGame", "Strategy", "EconomicSimulation", "BuildingGame"],
+      "none": ["Mobilephones"],
       "middle": []
     },
     {
       "date": "01.02.2015",
       "name": "Augmented-Reality-Support",
-      "good": [
-        "PuzzleGame",
-        "InteractiveMovie",
-        "VisualNovel"
-      ],
-      "bad": [
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
+      "good": ["PuzzleGame", "InteractiveMovie", "VisualNovel"],
+      "bad": ["EconomicSimulation", "BuildingGame"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.07.2016",
       "name": "GamingSuitSupport",
-      "good": [
-        "Action",
-        "Simulation",
-        "SportsGame",
-        "FightingGame",
-        "FPS",
-        "TPS"
-      ],
-      "bad": [
-        "PuzzleGame",
-        "Strategy",
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
-      "none": [
-        "Mobilephones"
-      ],
+      "good": ["Action", "Simulation", "SportsGame", "FightingGame", "FPS", "TPS"],
+      "bad": ["PuzzleGame", "Strategy", "EconomicSimulation", "BuildingGame"],
+      "none": ["Mobilephones"],
       "middle": []
     },
     {
       "date": "01.02.2017",
       "name": "SpeechRecognition",
-      "good": [
-        "Adventure",
-        "RPG",
-        "InteractiveMovie",
-        "FPS",
-        "VisualNovel",
-        "TPS"
-      ],
-      "bad": [
-        "EconomicSimulation",
-        "BuildingGame"
-      ],
+      "good": ["Adventure", "RPG", "InteractiveMovie", "FPS", "VisualNovel", "TPS"],
+      "bad": ["EconomicSimulation", "BuildingGame"],
       "none": [],
       "middle": []
     },
     {
       "date": "01.11.2018",
       "name": "FacialRecognition",
-      "good": [
-        "Simulation",
-        "SportsGame",
-        "InteractiveMovie",
-        "FPS",
-        "VisualNovel",
-        "TPS"
-      ],
-      "bad": [
-        "EconomicSimulation"
-      ],
+      "good": ["Simulation", "SportsGame", "InteractiveMovie", "FPS", "VisualNovel", "TPS"],
+      "bad": ["EconomicSimulation"],
       "none": [],
       "middle": []
     }
