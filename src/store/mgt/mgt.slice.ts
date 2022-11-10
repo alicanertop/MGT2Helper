@@ -35,7 +35,7 @@ export const mgtSlice = createSlice({
   reducers: {
     selectGenre: (state, action: PayloadAction<string>) => {
       state.selectedSubGenreValue = undefined
-      state.selectedGenreValue = action.payload
+      state.selectedGenreValue = action.payload || undefined
       state.selectedGenre = state.genreList.find((genre) => genre.name === action.payload)
     },
     selectSubGenre: (state, action: PayloadAction<string>) => {
