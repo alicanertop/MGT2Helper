@@ -22,7 +22,7 @@ export function MGTGameplay() {
   if (!gameplayTechnologies) return null
 
   return (
-    <Box>
+    <Box pb="2" borderBottom="1px solid teal">
       <Text textAlign="center" fontSize="2xl" mb="5">
         Gameplay Technologies
       </Text>

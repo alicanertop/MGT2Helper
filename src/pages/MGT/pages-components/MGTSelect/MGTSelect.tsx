@@ -20,7 +20,7 @@ export function MGTSelect() {
   const selectedSubGenreValue = useSelector(selectorGetSelectedSubGenreValue)
 
   return (
-    <Box>
+    <Box pb="2" borderBottom="1px solid teal">
       <Text textAlign="center" fontSize="2xl" mb="1">
         Please Select Genres
       </Text>

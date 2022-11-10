@@ -4,11 +4,13 @@ import { NameValue } from 'types/NameValue'
 
 export function MGTGraph({ name, value }: NameValue) {
   return (
-    <HStack minW={{ base: 100, lg: 350 }} borderBottom="1px solid teal" m="2">
+    <HStack p="1" border="1px solid teal" m="2" borderRadius="lg">
       <Text w="full" fontSize="lg">
         {name}
       </Text>
-      <Text fontSize="lg">{value}</Text>
+      <Text fontSize="lg" fontWeight="bold">
+        {value}
+      </Text>
     </HStack>
   )
 }

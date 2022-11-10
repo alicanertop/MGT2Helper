@@ -11,7 +11,7 @@ export function MGTTargetGroup() {
   if (!selectedGenre?.targetGroup.length) return null
 
   return (
-    <Box>
+    <Box pb="2" borderBottom="1px solid teal">
       <Text textAlign="center" fontSize="2xl" mb="1">
         Target Group
       </Text>

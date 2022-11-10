@@ -6,11 +6,11 @@ import { Direction } from 'types/Direction'
 
 export function MGTDirection({ direction }: { direction: Direction }) {
   return (
-    <Box>
+    <Box flex={8}>
       <Text textAlign="center" fontSize="2xl" mb="1">
         Direction
       </Text>
-      <Flex wrap="wrap">
+      <Flex wrap="wrap" maxH="230px" flexDir="column">
         {direction.map((d) => (
           <MGTGraph key={createUuid()} {...d} />
         ))}

@@ -23,7 +23,7 @@ export function MGTSuitableTopics() {
   if (!selectedGenre?.suitableTopics.length) return null
 
   return (
-    <Box>
+    <Box pb="2" borderBottom="1px solid teal">
       <Text textAlign="center" fontSize="2xl" mb="1">
         Suitable Topics
       </Text>
@@ -35,7 +35,7 @@ export function MGTSuitableTopics() {
           onChange={(e) => setFText(e.target.value)}
         />
       </Box>
-      <Flex wrap="wrap" align="center" justify="center">
+      <Flex wrap="wrap" align="center" justify="center" minH={100}>
         {filteredSuitableTopics?.map((topic, i) => (
           <MGTTag key={createUuid()} topic={topic} index={i} />
         ))}
