@@ -43,6 +43,7 @@
     "react/react-in-jsx-scope": "off",
     "react-hooks/rules-of-hooks": "off",
     "no-async-promise-executor": "warn",
+    "prefer-promise-reject-errors": "off",
     "react/require-default-props": "off",
     "@typescript-eslint/ban-types": "off",
     "react-hooks/exhaustive-deps": "warn",
