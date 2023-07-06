@@ -26,7 +26,7 @@ function Index() {
         <Provider store={store}>
           <QueryClientProvider client={queryClient}>
             {/* <ReactQueryDevtools initialIsOpen={false} /> */}
-            <HistoryRouter history={history}>
+            <HistoryRouter history={history as any}>
               <App />
             </HistoryRouter>
           </QueryClientProvider>
