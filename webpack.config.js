@@ -6,9 +6,9 @@ const webpackDevConfig = {
   mode: 'development',
   performance: { hints: false },
   devtool: 'cheap-module-source-map',
-  devServer: { open: true, hot: true, port },
   optimization: { splitChunks: { chunks: 'all' } },
-  output: { filename: '[name].js', chunkFilename: '[name].chunk.js' },
+  devServer: { historyApiFallback: true, open: true, hot: true, port },
+  output: { filename: '[name].js', chunkFilename: '[name].chunk.js' }
 }
 
 const webpackProdConfig = {
@@ -16,7 +16,7 @@ const webpackProdConfig = {
   output: {
     clean: true,
     filename: '[name].[chunkhash].js',
-    chunkFilename: '[name].[chunkhash].chunk.js',
+    chunkFilename: '[name].[chunkhash].chunk.js'
   },
   optimization: {
     minimize: true,
@@ -31,11 +31,11 @@ const webpackProdConfig = {
         vendor: {
           name: 'vendors',
           test: /[\\/]node_modules[\\/]/,
-          chunks: 'all',
-        },
-      },
-    },
-  },
+          chunks: 'all'
+        }
+      }
+    }
+  }
 }
 
 const config = { ...defaultConfigs, ...(isDev ? webpackDevConfig : webpackProdConfig) }

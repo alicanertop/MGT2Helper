@@ -28,7 +28,7 @@ const defaultConfigs = {
         configFile: path.join(cwd, 'tsconfig.json'),
       }),
     ],
-    alias: { ...alias, ...(isDev ? { 'react-dom': '@hot-loader/react-dom' } : {}) },
+    alias,
   },
   plugins: [
     new ForkTsCheckerWebpackPlugin(),
@@ -59,6 +59,7 @@ const defaultConfigs = {
           { loader: 'css-loader' },
         ],
       },
+      // SCSS Loader
       {
         test: /\.scss$/,
         use: [
